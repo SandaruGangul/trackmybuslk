@@ -63,7 +63,7 @@ const UpdateBusPage = () => {
     }
     
     // Initialize socket connection for real-time updates
-    const newSocket = io('http://localhost:5001', {
+    const newSocket = io(config.SOCKET_URL, {
       reconnectionAttempts: 5,
       reconnectionDelay: 1000,
       transports: ['websocket', 'polling'] // Try WebSocket first, then fall back to polling

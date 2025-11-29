@@ -25,15 +25,15 @@ api.interceptors.request.use(
 export const authAPI = {
   login: async (email, password) => {
     const response = await api.post('/api/auth/login', { email, password });
-    return response.data;
+    return response;
   },
   register: async (userData) => {
     const response = await api.post('/api/auth/register', userData);
-    return response.data;
+    return response;
   },
-  getUser: async () => {
-    const response = await api.get('/api/auth/user');
-    return response.data;
+  getCurrentUser: async () => {
+    const response = await api.get('/api/auth/me');
+    return response;
   }
 };
 
@@ -41,29 +41,29 @@ export const authAPI = {
 export const busAPI = {
   getRoutes: async () => {
     const response = await api.get('/api/buses/routes');
-    return response.data;
+    return response;
   },
   getRoute: async (routeId) => {
     const response = await api.get(`/api/buses/routes/${routeId}`);
-    return response.data;
+    return response;
   },
   getUpdates: async (routeId, includeOutdated = false) => {
     const response = await api.get(`/api/buses/updates/${routeId}`, {
       params: { includeOutdated }
     });
-    return response.data;
+    return response;
   },
   createUpdate: async (updateData) => {
     const response = await api.post('/api/buses/update', updateData);
-    return response.data;
+    return response;
   },
   getUserUpdates: async () => {
     const response = await api.get('/api/buses/user-updates');
-    return response.data;
+    return response;
   },
   deleteUpdate: async (updateId) => {
     const response = await api.delete(`/api/buses/update/${updateId}`);
-    return response.data;
+    return response;
   }
 };
 
@@ -71,6 +71,6 @@ export const busAPI = {
 export const userAPI = {
   getLeaderboard: async () => {
     const response = await api.get('/api/users/leaderboard');
-    return response.data;
+    return response;
   }
 };

@@ -12,17 +12,17 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Maharagama",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Slave Island", coordinates: [6.9271, 79.8564] },
-      { name: "Kollupitiya", coordinates: [6.9147, 79.8497] },
-      { name: "Bambalapitiya", coordinates: [6.8942, 79.8509] },
-      { name: "Wellawatte", coordinates: [6.8774, 79.8578] },
-      { name: "Dehiwala", coordinates: [6.8515, 79.8632] },
-      { name: "Mount Lavinia", coordinates: [6.8406, 79.8631] },
-      { name: "Ratmalana", coordinates: [6.8214, 79.8846] },
-      { name: "Moratuwa", coordinates: [6.7731, 79.8816] },
-      { name: "Piliyandala", coordinates: [6.8011, 79.9220] },
-      { name: "Maharagama", coordinates: [6.8485, 79.9265] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Slave Island", coordinates: { lat: 6.9271, lng: 79.8564 }, order: 2 },
+      { name: "Kollupitiya", coordinates: { lat: 6.9147, lng: 79.8497 }, order: 3 },
+      { name: "Bambalapitiya", coordinates: { lat: 6.8942, lng: 79.8509 }, order: 4 },
+      { name: "Wellawatte", coordinates: { lat: 6.8774, lng: 79.8578 }, order: 5 },
+      { name: "Dehiwala", coordinates: { lat: 6.8515, lng: 79.8632 }, order: 6 },
+      { name: "Mount Lavinia", coordinates: { lat: 6.8406, lng: 79.8631 }, order: 7 },
+      { name: "Ratmalana", coordinates: { lat: 6.8214, lng: 79.8846 }, order: 8 },
+      { name: "Moratuwa", coordinates: { lat: 6.7731, lng: 79.8816 }, order: 9 },
+      { name: "Piliyandala", coordinates: { lat: 6.8011, lng: 79.9220 }, order: 10 },
+      { name: "Maharagama", coordinates: { lat: 6.8485, lng: 79.9265 }, order: 11 }
     ]
   },
   {
@@ -31,17 +31,17 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Negombo",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Pettah", coordinates: [6.9387, 79.8542] },
-      { name: "Maradana", coordinates: [6.9297, 79.8606] },
-      { name: "Grandpass", coordinates: [6.9502, 79.8640] },
-      { name: "Peliyagoda", coordinates: [6.9708, 79.8836] },
-      { name: "Kelaniya", coordinates: [6.9553, 79.9219] },
-      { name: "Kiribathgoda", coordinates: [6.9806, 79.9292] },
-      { name: "Ja-Ela", coordinates: [7.0747, 79.8919] },
-      { name: "Seeduwa", coordinates: [7.1045, 79.8845] },
-      { name: "Katunayake", coordinates: [7.1670, 79.8840] },
-      { name: "Negombo", coordinates: [7.2094, 79.8358] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Pettah", coordinates: { lat: 6.9387, lng: 79.8542 }, order: 2 },
+      { name: "Maradana", coordinates: { lat: 6.9297, lng: 79.8606 }, order: 3 },
+      { name: "Grandpass", coordinates: { lat: 6.9502, lng: 79.8640 }, order: 4 },
+      { name: "Peliyagoda", coordinates: { lat: 6.9708, lng: 79.8836 }, order: 5 },
+      { name: "Kelaniya", coordinates: { lat: 6.9553, lng: 79.9219 }, order: 6 },
+      { name: "Kiribathgoda", coordinates: { lat: 6.9806, lng: 79.9292 }, order: 7 },
+      { name: "Ja-Ela", coordinates: { lat: 7.0747, lng: 79.8919 }, order: 8 },
+      { name: "Seeduwa", coordinates: { lat: 7.1045, lng: 79.8845 }, order: 9 },
+      { name: "Katunayake", coordinates: { lat: 7.1670, lng: 79.8840 }, order: 10 },
+      { name: "Negombo", coordinates: { lat: 7.2094, lng: 79.8358 }, order: 11 }
     ]
   },
   {
@@ -50,15 +50,15 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Gampaha",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Pettah", coordinates: [6.9387, 79.8542] },
-      { name: "Maradana", coordinates: [6.9297, 79.8606] },
-      { name: "Baseline Road", coordinates: [6.9401, 79.8711] },
-      { name: "Peliyagoda", coordinates: [6.9708, 79.8836] },
-      { name: "Kelaniya", coordinates: [6.9553, 79.9219] },
-      { name: "Kadawatha", coordinates: [7.0007, 79.9531] },
-      { name: "Ragama", coordinates: [7.0264, 79.9197] },
-      { name: "Gampaha", coordinates: [7.0911, 79.9950] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Pettah", coordinates: { lat: 6.9387, lng: 79.8542 }, order: 2 },
+      { name: "Maradana", coordinates: { lat: 6.9297, lng: 79.8606 }, order: 3 },
+      { name: "Baseline Road", coordinates: { lat: 6.9401, lng: 79.8711 }, order: 4 },
+      { name: "Peliyagoda", coordinates: { lat: 6.9708, lng: 79.8836 }, order: 5 },
+      { name: "Kelaniya", coordinates: { lat: 6.9553, lng: 79.9219 }, order: 6 },
+      { name: "Kadawatha", coordinates: { lat: 7.0007, lng: 79.9531 }, order: 7 },
+      { name: "Ragama", coordinates: { lat: 7.0264, lng: 79.9197 }, order: 8 },
+      { name: "Gampaha", coordinates: { lat: 7.0911, lng: 79.9950 }, order: 9 }
     ]
   },
   {
@@ -67,16 +67,16 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Homagama",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Union Place", coordinates: [6.9147, 79.8613] },
-      { name: "Borella", coordinates: [6.9167, 79.8783] },
-      { name: "Rajagiriya", coordinates: [6.9077, 79.8897] },
-      { name: "Battaramulla", coordinates: [6.8978, 79.9189] },
-      { name: "Koswatte", coordinates: [6.8833, 79.9325] },
-      { name: "Nugegoda", coordinates: [6.8649, 79.8997] },
-      { name: "Kotte", coordinates: [6.8905, 79.9018] },
-      { name: "Pannipitiya", coordinates: [6.8416, 79.9589] },
-      { name: "Homagama", coordinates: [6.8444, 80.0025] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Union Place", coordinates: { lat: 6.9147, lng: 79.8613 }, order: 2 },
+      { name: "Borella", coordinates: { lat: 6.9167, lng: 79.8783 }, order: 3 },
+      { name: "Rajagiriya", coordinates: { lat: 6.9077, lng: 79.8897 }, order: 4 },
+      { name: "Battaramulla", coordinates: { lat: 6.8978, lng: 79.9189 }, order: 5 },
+      { name: "Koswatte", coordinates: { lat: 6.8833, lng: 79.9325 }, order: 6 },
+      { name: "Nugegoda", coordinates: { lat: 6.8649, lng: 79.8997 }, order: 7 },
+      { name: "Kotte", coordinates: { lat: 6.8905, lng: 79.9018 }, order: 8 },
+      { name: "Pannipitiya", coordinates: { lat: 6.8416, lng: 79.9589 }, order: 9 },
+      { name: "Homagama", coordinates: { lat: 6.8444, lng: 80.0025 }, order: 10 }
     ]
   },
   {
@@ -85,15 +85,15 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Kaduwela",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Union Place", coordinates: [6.9147, 79.8613] },
-      { name: "Borella", coordinates: [6.9167, 79.8783] },
-      { name: "Rajagiriya", coordinates: [6.9077, 79.8897] },
-      { name: "Battaramulla", coordinates: [6.8978, 79.9189] },
-      { name: "Koswatte", coordinates: [6.8833, 79.9325] },
-      { name: "Malabe", coordinates: [6.9097, 79.9531] },
-      { name: "Athurugiriya", coordinates: [6.8781, 79.9906] },
-      { name: "Kaduwela", coordinates: [6.9331, 79.9839] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Union Place", coordinates: { lat: 6.9147, lng: 79.8613 }, order: 2 },
+      { name: "Borella", coordinates: { lat: 6.9167, lng: 79.8783 }, order: 3 },
+      { name: "Rajagiriya", coordinates: { lat: 6.9077, lng: 79.8897 }, order: 4 },
+      { name: "Battaramulla", coordinates: { lat: 6.8978, lng: 79.9189 }, order: 5 },
+      { name: "Koswatte", coordinates: { lat: 6.8833, lng: 79.9325 }, order: 6 },
+      { name: "Malabe", coordinates: { lat: 6.9097, lng: 79.9531 }, order: 7 },
+      { name: "Athurugiriya", coordinates: { lat: 6.8781, lng: 79.9906 }, order: 8 },
+      { name: "Kaduwela", coordinates: { lat: 6.9331, lng: 79.9839 }, order: 9 }
     ]
   },
   {
@@ -102,14 +102,14 @@ const sriLankaBusRoutes = [
     startLocation: "Colombo Fort",
     endLocation: "Piliyandala",
     stops: [
-      { name: "Colombo Fort", coordinates: [6.9344, 79.8428] },
-      { name: "Kollupitiya", coordinates: [6.9147, 79.8497] },
-      { name: "Wellawatte", coordinates: [6.8774, 79.8578] },
-      { name: "Dehiwala", coordinates: [6.8515, 79.8632] },
-      { name: "Mount Lavinia", coordinates: [6.8406, 79.8631] },
-      { name: "Ratmalana", coordinates: [6.8214, 79.8846] },
-      { name: "Moratuwa", coordinates: [6.7731, 79.8816] },
-      { name: "Piliyandala", coordinates: [6.8011, 79.9220] }
+      { name: "Colombo Fort", coordinates: { lat: 6.9344, lng: 79.8428 }, order: 1 },
+      { name: "Kollupitiya", coordinates: { lat: 6.9147, lng: 79.8497 }, order: 2 },
+      { name: "Wellawatte", coordinates: { lat: 6.8774, lng: 79.8578 }, order: 3 },
+      { name: "Dehiwala", coordinates: { lat: 6.8515, lng: 79.8632 }, order: 4 },
+      { name: "Mount Lavinia", coordinates: { lat: 6.8406, lng: 79.8631 }, order: 5 },
+      { name: "Ratmalana", coordinates: { lat: 6.8214, lng: 79.8846 }, order: 6 },
+      { name: "Moratuwa", coordinates: { lat: 6.7731, lng: 79.8816 }, order: 7 },
+      { name: "Piliyandala", coordinates: { lat: 6.8011, lng: 79.9220 }, order: 8 }
     ]
   }
 ];
@@ -200,7 +200,7 @@ async function seedProductionDatabase() {
           busNumber: `${route.routeNumber}/${Math.floor(Math.random() * 50) + 1}`,
           currentStop: stop.name,
           coordinates: stop.coordinates,
-          direction: j % 2 === 0 ? 'forward' : 'reverse',
+          direction: j % 2 === 0 ? 'forward' : 'backward',
           passengerLoad: ['low', 'medium', 'high'][Math.floor(Math.random() * 3)],
           timestamp: new Date(now.getTime() - minutesAgo * 60000)
         });
